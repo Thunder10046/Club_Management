@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "354032754336",
+    "project_id": "club-management-8577f",
+    "storage_bucket": "club-management-8577f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:354032754336:android:c0c69cec5059461e85f3c5",
+        "android_client_info": {
+          "package_name": "com.example.clubmanagement"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGhzVqvg1g-VCUfjRHgiEhv8byJeYovRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
