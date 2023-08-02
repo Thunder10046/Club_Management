@@ -10,4 +10,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="purple_soft">#8B74BD</color>
+    <color name="fading_blue">#658CBB</color>
+    <color name="lavender">#8692f7</color>
 </resources>

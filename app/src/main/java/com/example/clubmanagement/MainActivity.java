@@ -19,7 +19,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class MainActivity extends AppCompatActivity {
 
-    private EditText password, email, username;
+    private EditText password, email;
     private Button signup;
     private TextView already1;
     private ImageView imageview1;
@@ -32,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
 
         password = findViewById(R.id.password);
         email = findViewById(R.id.email);
-        username = findViewById(R.id.username);
         signup = findViewById(R.id.signup);
         already1 = findViewById(R.id.already1);
         imageview1 = findViewById(R.id.imageView1);
@@ -65,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
                 if (task.isSuccessful())
                 {
                     Toast.makeText(MainActivity.this, "Signup is Successful !", Toast.LENGTH_SHORT).show();
-                    Intent intent = new Intent(getApplicationContext(), Friendactivity.class);
+                    Intent intent = new Intent(getApplicationContext(), Register.class);
                     startActivity(intent);
                 }
                 else{

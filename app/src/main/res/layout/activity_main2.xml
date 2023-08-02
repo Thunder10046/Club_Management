@@ -1,75 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/gradient"
     android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:scrollbars = "vertical"
+    android:scrollbarSize = "8dp"
+    android:scrollbarStyle = "insideOverlay"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="410dp"
-        android:layout_height="260dp"
-        android:layout_marginRight="10dp"
-
-        android:layout_marginBottom="10dp"
-        android:padding="10dp"
-        app:srcCompat="@drawable/login" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="47dp"
-        android:layout_gravity="center_vertical|center_horizontal"
-        android:padding="10dp"
-        android:text="Log In Interface"
-        android:textStyle="bold"
-        android:textAlignment="center"
-        android:textSize="20sp" />
-
-
-    <EditText
-        android:id="@+id/email"
-        android:layout_width="376dp"
-        android:layout_height="49dp"
-        android:layout_margin="10dp"
-        android:ems="10"
-        android:hint="Enter Email Address"
-        android:inputType="textPersonName"
-        android:padding="5dp"
-        android:textSize="20sp" />
-    <EditText
-        android:id="@+id/password"
-        android:layout_width="376dp"
-        android:layout_height="49dp"
-        android:layout_margin="10dp"
-        android:ems="10"
-        android:hint="Enter Password"
-        android:inputType="textPassword"
-        android:padding="5dp"
-        android:textSize="20sp" />
-
-
-    <Button
-        android:id="@+id/signup"
-        android:layout_width="150dp"
-        android:layout_height="50dp"
-        android:layout_margin="10dp"
-        android:background="@drawable/cornerer"
-        android:layout_gravity="center_vertical|center_horizontal"
-        android:text="Log In"
-        android:textAppearance="@style/TextAppearance.AppCompat.Small"
-        android:textSize="18dp" />
-
-    <TextView
-        android:id="@+id/already1"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Don't have an account? Click to Register"
-        android:layout_gravity="center_vertical|center_horizontal"
-        android:textSize="18sp"
-        android:padding="10dp"
-        android:textStyle="bold"/>
+        android:orientation="vertical">
 
-</LinearLayout>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="744dp"
+                android:background="@drawable/gradient"
+                android:orientation="vertical"
+                tools:context=".MainActivity">
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="410dp"
+                    android:layout_height="260dp"
+                    android:layout_marginRight="10dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp"
+                    app:srcCompat="@drawable/login" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="47dp"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:padding="10dp"
+                    android:text="Log In Interface"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="376dp"
+                    android:layout_height="49dp"
+                    android:layout_margin="10dp"
+                    android:ems="10"
+                    android:hint="Enter Email Address"
+                    android:inputType="textPersonName"
+                    android:padding="5dp"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="376dp"
+                    android:layout_height="49dp"
+                    android:layout_margin="10dp"
+                    android:ems="10"
+                    android:hint="Enter Password"
+                    android:inputType="textPassword"
+                    android:padding="5dp"
+                    android:textSize="20sp" />
+
+
+                <Button
+                    android:id="@+id/signup"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/cornerer"
+                    android:text="Log In"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/already1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:padding="10dp"
+                    android:text="Don't have an account? Click to Register"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
