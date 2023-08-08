@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Splash">
+
+    <ImageView
+        android:id="@+id/image_splash"
+        android:layout_width="286dp"
+        android:layout_height="167dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="225dp"
+        android:src="@mipmap/sp1" />
+
+    <TextView
+        android:id="@+id/dream"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Our Debate, our dream"
+        android:textColor="@color/black"
+        android:gravity="center_horizontal"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

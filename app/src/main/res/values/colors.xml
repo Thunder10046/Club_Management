@@ -9,7 +9,8 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="purple_soft">#8B74BD</color>
+    <color name="purple_soft"> 	#A52A2A</color>
     <color name="fading_blue">#658CBB</color>
     <color name="lavender">#8692f7</color>
+    <color name="metal">#c2c4c7</color>
 </resources>

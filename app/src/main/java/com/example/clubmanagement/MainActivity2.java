@@ -35,12 +35,12 @@ public class MainActivity2 extends AppCompatActivity {
         already1 = findViewById(R.id.already1);
         imageview1 = findViewById(R.id.imageView1);
 
-//        if(FirebaseAuth.getInstance().getCurrentUser()!=null)
-//        {
-//            Intent intent = new Intent(getApplicationContext(), Friendactivity.class);
-//            startActivity(intent);
-//            finish();
-//        }
+        if(FirebaseAuth.getInstance().getCurrentUser()!=null)
+        {
+            Intent intent = new Intent(getApplicationContext(), Friendactivity.class);
+            startActivity(intent);
+            finish();
+        }
 
         already1.setOnClickListener(new View.OnClickListener() {
             @Override

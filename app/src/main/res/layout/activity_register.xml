@@ -21,15 +21,27 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="30dp"
+            android:backgroundTint="@color/white"
             app:cardCornerRadius="30dp"
             app:cardElevation="20dp">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
+                android:backgroundTint="@color/white"
                 android:layout_gravity="center_horizontal"
                 android:padding="24dp"
                 android:background="@drawable/border">
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="220dp"
+                    android:layout_marginRight="10dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp"
+                    android:src="@drawable/club_photo">
+                </ImageView>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -67,10 +79,12 @@
                     android:background="@drawable/border"
                     android:layout_marginTop="20dp"
                     android:padding="8dp"
+                    android:inputType="numberDecimal"
                     android:hint="Roll"
                     android:drawableLeft="@drawable/baseline_roll"
                     android:drawablePadding="8dp"
                     android:textColor="@color/purple_soft"/>
+
 
                 <EditText
                     android:layout_width="match_parent"
@@ -90,6 +104,7 @@
                     android:background="@drawable/border"
                     android:layout_marginTop="20dp"
                     android:padding="8dp"
+                    android:inputType="textEmailAddress"
                     android:hint="Email"
                     android:drawableLeft="@drawable/baseline_email_24"
                     android:drawablePadding="8dp"

@@ -47,6 +47,11 @@ public class Register extends AppCompatActivity {
                 String lastname = signup_nick_name.getText().toString();
                 String bkash = signupbkash.getText().toString();
 
+                if(name.isEmpty() || roll.isEmpty() || department.isEmpty() || email.isEmpty() || lastname.isEmpty() || bkash.isEmpty())
+                {
+                    Toast.makeText(Register.this, "Please insert all required data", Toast.LENGTH_SHORT).show();
+                }
+
                 User_helper helper = new User_helper(name,lastname, roll,department,email,bkash);
 
 //                FirebaseDatabase.getInstance().getReference("Users"+FirebaseAuth.getInstance().getCurrentUser().getUid()).setValue(helper);
