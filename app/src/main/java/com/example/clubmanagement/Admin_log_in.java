@@ -79,8 +79,8 @@ public class Admin_log_in extends AppCompatActivity {
                 if (task.isSuccessful()) {
                     String singleUserEmail = "radauritro@gmail.com";
                     if (email.getText().toString().equals(singleUserEmail)) {
-                        Toast.makeText(Admin_log_in.this, "Sign in is Successful!", Toast.LENGTH_SHORT).show();
-                        Intent intent = new Intent(getApplicationContext(), Friendactivity.class);
+                        Toast.makeText(Admin_log_in.this, "You are proceed to sign in as Admin!", Toast.LENGTH_SHORT).show();
+                        Intent intent = new Intent(getApplicationContext(), Admin_feed.class);
                         startActivity(intent);
                     } else {
                         // Display an error message if the email doesn't match
