@@ -45,7 +45,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Log In"
+                    android:text="Admin Log In"
                     android:textSize="28sp"
                     android:textAlignment="center"
                     android:textStyle="bold"
@@ -62,7 +62,7 @@
                     android:hint="Email"
                     android:drawableLeft="@drawable/baseline_email_24"
                     android:drawablePadding="8dp"
-                    android:textColor="@color/purple_soft"/>
+                    android:textColor="@color/black"/>
 
                 <EditText
                     android:layout_width="match_parent"
@@ -75,22 +75,22 @@
                     android:hint="Password"
                     android:drawableLeft="@drawable/baseline_lock_24"
                     android:drawablePadding="8dp"
-                    android:textColor="@color/purple_soft"/>
+                    android:textColor="@color/black"/>
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
-                    android:text="LOG IN"
+                    android:text="LOG IN AS ADMIN"
                     android:id="@+id/signup"
                     android:textSize="18sp"
                     android:layout_marginTop="30dp"
-                    android:backgroundTint="@color/purple_soft"
+                    android:backgroundTint="@color/black"
                     app:cornerRadius = "20dp"/>
 
                 <TextView
                     android:layout_width="match_parent"
-                    android:id="@+id/already1"
+                    android:id="@+id/sign_up_member"
                     android:layout_height="wrap_content"
-                    android:text="Don't Have An Account? Sign Up"
+                    android:text="Sign Up as Member"
                     android:textSize="18sp"
                     android:layout_marginTop="15dp"
                     android:textAlignment="center"
@@ -99,14 +99,14 @@
 
                 <TextView
                     android:layout_width="match_parent"
-                    android:id="@+id/log_in_as_admin"
+                    android:id="@+id/log_in_member"
                     android:layout_height="wrap_content"
-                    android:text="Log in as Admin?"
-                    android:textSize="20sp"
+                    android:text="Log In as Member"
+                    android:textSize="19sp"
                     android:layout_marginTop="15dp"
                     android:textAlignment="center"
                     android:textStyle="bold"
-                    android:textColor="@color/black"/>
+                    android:textColor="@color/purple_soft"/>
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
