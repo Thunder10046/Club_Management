@@ -10,7 +10,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -61,7 +60,7 @@ public class Register extends AppCompatActivity {
 
                 reference.child(lastname).setValue(helper);
 
-                Toast.makeText(Register.this, "Registration has been successgul! ", Toast.LENGTH_SHORT).show();
+                Toast.makeText(Register.this, "Registration has been successful! ", Toast.LENGTH_SHORT).show();
 
                 Intent intent = new Intent(Register.this, Friendactivity.class);
                 startActivity(intent);

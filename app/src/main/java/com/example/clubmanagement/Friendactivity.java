@@ -1,9 +1,8 @@
 package com.example.clubmanagement;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
-import android.view.Menu;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Friendactivity extends AppCompatActivity {
 

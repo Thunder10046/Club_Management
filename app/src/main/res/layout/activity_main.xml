@@ -36,8 +36,9 @@
                 <ImageView
                     android:id="@+id/imageView1"
                     android:layout_width="306dp"
+
                     android:layout_height="274dp"
-                    android:layout_marginRight="10dp"
+                    android:layout_marginEnd="10dp"
                     android:layout_marginBottom="10dp"
                     android:padding="10dp"
                     android:src="@drawable/club_photo">
