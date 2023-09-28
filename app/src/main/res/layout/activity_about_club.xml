@@ -1,0 +1,37 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:scrollbars = "vertical"
+    android:scrollbarSize = "8dp"
+    android:scrollbarStyle = "insideOverlay"
+    android:background="@drawable/gradient"
+    tools:context=".Register">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/adamina"
+            android:textStyle="bold"
+            android:padding="20dp"
+            android:text="@string/WelcomeText"
+            android:textColor="@color/black"
+            android:textSize="25sp">
+
+        </me.biubiubiu.justifytext.library.JustifyTextView>
+
+    </LinearLayout>
+
+
+</ScrollView>

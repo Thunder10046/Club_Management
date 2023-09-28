@@ -2,4 +2,8 @@
     <string name="app_name">RUET Debating Club</string>
     <string name="navigation_drawer_open">Open Navigation Drawer</string>
     <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="WelcomeText">Welcome to Ruet Debating Club (RUET DC), the only debating club of Rajshahi University of Engineering and Technology (RUET). It started its wonderful journey on 4th of May 1991 as Debating Society of RUET. From time to time, it got recognized as "RUET Debating Club". At the very heart of this debating club is the passion for debating, freedom of speech, critical thinking which is building up the leadership qualities and dedication to serve our nation in each individual young talent. Our motto stands as - Our debate Our dream.</string>
+
 </resources>

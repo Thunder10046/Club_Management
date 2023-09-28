@@ -85,6 +85,8 @@ public class MainActivity2 extends AppCompatActivity {
                 else {
                     Toast.makeText(MainActivity2.this, task.getException().getLocalizedMessage(), Toast.LENGTH_SHORT).show();
                 }
+                email.getText().clear();
+                password.getText().clear();
             }
         });
 

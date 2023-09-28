@@ -89,9 +89,12 @@ public class Admin_log_in extends AppCompatActivity {
                 } else {
                     Toast.makeText(Admin_log_in.this, task.getException().getLocalizedMessage(), Toast.LENGTH_SHORT).show();
                 }
+                email.getText().clear();
+                password.getText().clear();
             }
         });
 
 
     }
+
 }

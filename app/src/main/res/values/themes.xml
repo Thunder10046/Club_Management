@@ -9,6 +9,15 @@
 
     </style>
 
+    <style name="Base.Theme.ClubManagement.feed" parent="Theme.MaterialComponents.DayNight">
+        Customize your light theme here.
+        <item name="colorPrimary">@color/purple_soft</item>
+        <item name="colorPrimaryDark">@color/metal</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:textColorPrimary">@color/white</item>
+
+    </style>
+
     <style name="Theme.ClubManagement" parent="Base.Theme.ClubManagement" />
 
     <style name="ThemeOverlay.AppCompat.navTheme">

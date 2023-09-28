@@ -13,6 +13,10 @@
         android:theme="@style/Theme.ClubManagement"
         tools:targetApi="31">
         <activity
+            android:name=".About_club"
+            android:theme="@style/Base.Theme.ClubManagement.feed"
+            android:exported="false" />
+        <activity
             android:name=".Admin_feed"
             android:exported="false" />
         <activity
@@ -39,6 +43,10 @@
         <activity
             android:name=".MainActivity"
             android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
